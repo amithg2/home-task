@@ -38,14 +38,12 @@ p {
 @media only screen and (max-width: 1000px) {
   .Form {
     width: 30%;
-    background-color: lightblue;
   }
 }
 
 @media only screen and (max-width: 900px) {
   .Form {
     width: 33%;
-    background-color: lightblue;
   }
 }
 
