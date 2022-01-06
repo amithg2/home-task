@@ -1,0 +1,57 @@
+.Form {
+  width: 25%;
+  min-height: 60%;
+  direction: rtl;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #d7dade;
+  padding: 20px;
+}
+.ImageInputs {
+  min-height: 10%;
+}
+
+.inputs {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.inputs select {
+  height: 30px;
+  padding: 2px;
+}
+
+.inputs input {
+  height: 22px;
+}
+
+p {
+  margin: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .Form {
+    width: 30%;
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Form {
+    width: 33%;
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .Form {
+    width: 80%;
+    margin: 2em 0;
+  }
+}

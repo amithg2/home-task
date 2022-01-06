@@ -1,0 +1,50 @@
+.button {
+  background-color: #ee202a;
+  padding: 5px 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.button:hover {
+  background-color: #d22830;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.fileInput {
+  border: 1px solid #ccc;
+  background-color: white;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  appearance: initial;
+  text-indent: -100px;
+}
+
+.addImageBtn {
+  background-color: #5fcafc;
+  width: 100%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding: 5px 0px;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+
+.addImageBtn:hover {
+  color: rgba(0, 0, 0, 0.4);
+  background-color: #51b4e2;
+}
+
+.Input {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+@media only screen and (max-width: 800px) {
+  .fileInput {
+    width: 75%;
+  }
+}
