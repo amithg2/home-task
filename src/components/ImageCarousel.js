@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import defaultImage from "./images/Living+Room+1b.jpg";
-import "./ImageCarousel.css";
+import defaultImage from "../images/Living+Room+1b.jpg";
+import "../styles/ImageCarousel.css";
 
 function ImageCarousel({ images }) {
   const [curImage, setCurImage] = useState(0);

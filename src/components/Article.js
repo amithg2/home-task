@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
-import { ArticleContext } from "./contexts/ArticleContext";
+import { ArticleContext } from "../contexts/ArticleContext";
 import ImageCarousel from "./ImageCarousel";
-import "./Article.css";
+import "../styles/Article.css";
 
 function Article() {
   const { article } = useContext(ArticleContext);

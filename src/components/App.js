@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Article from "./Article";
 import Form from "./Form";
-import { ArticleContext } from "./contexts/ArticleContext";
-import "./App.css";
+import { ArticleContext } from "../contexts/ArticleContext";
+import "../styles/App.css";
 
 function App() {
   const articleFormat = {

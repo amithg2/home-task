@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import ImageInputs from "./ImageInputs";
-import { ArticleContext } from "./contexts/ArticleContext";
-import "./Form.css";
+import { ArticleContext } from "../contexts/ArticleContext";
+import "../styles/Form.css";
 
 function Form() {
   const { setArticle, article } = useContext(ArticleContext);

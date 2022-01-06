@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Input from "./Input";
-import "./ImageInputs.css";
+import Input from "../Input";
+import "../styles/ImageInputs.css";
 
 function ImageInputs() {
   const [numOfImg, setNumOfImg] = useState(1);
