@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Input from "../Input";
+import Input from "./Input";
 import "../styles/ImageInputs.css";
 
 function ImageInputs() {
@@ -24,7 +24,6 @@ function ImageInputs() {
       <p>תמונות</p>
       {makeInputs()}
       <div className="addImageBtn" onClick={addInput}>
-        {" "}
         הוסף תמונה
       </div>
     </div>

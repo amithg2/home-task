@@ -1,8 +1,9 @@
 import React, { useState, useContext } from "react";
-import { ArticleContext } from "./contexts/ArticleContext";
+import { ArticleContext } from "../contexts/ArticleContext";
 
 function Input({ idx }) {
   const [isDeleted, setIsDeleted] = useState(false);
+  const [isFile, setIsFile] = useState(false);
   const { article, setArticle } = useContext(ArticleContext);
 
   const handleDeleteImg = (e) => {
@@ -24,11 +25,12 @@ function Input({ idx }) {
       });
     };
     reader.readAsDataURL(selected);
+    setIsFile(true);
   };
-
   return (
     <div style={{ display: isDeleted && "none" }} className="Input">
       <input
+        style={{ color: isFile ? "black" : "white" }}
         type="file"
         className="fileInput"
         accept="image/*"

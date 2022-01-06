@@ -36,6 +36,7 @@
 }
 
 .arrowWrapper {
+    color: white;
   position: absolute;
   z-index: 20;
   display: flex;
@@ -48,4 +49,8 @@
   line-height: 0em;
   font-size: 3em;
   cursor: pointer;
+  transition: .3s ease;
+}
+.arrow:hover {
+    transform: scale(1.2);
 }

@@ -17,7 +17,9 @@ function Article() {
         </h4>
         <h1 className="title">{article.title}</h1>
         <p className="subTitle">{article.subTitle}</p>
-        <p className="author">{article.author}</p>
+        <p className="author">
+          <b>{article.author}</b>
+        </p>
       </div>
     </div>
   );
